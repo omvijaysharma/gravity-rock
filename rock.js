@@ -309,7 +309,7 @@ function update() {
                 
 
         if (gap.y + gap.height < 0) {
-            score = score + 5000;
+            score++;
             gap.y = canvas.height;
             gap.x = Math.random() * (canvas.width - gapWidth);
 
